@@ -8,8 +8,8 @@ int main() {
 
   while(1) {
     myled = 1;
-    HAL_Delay(50);
+    HAL_Delay(100);
     myled = 0;
-    HAL_Delay(50);
+    HAL_Delay(900);
   }
 }
